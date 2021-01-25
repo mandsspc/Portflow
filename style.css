@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.title-nav {
+    font-size: 1.5em;
+}
+
+.list-menu-header {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 59%;
+}
+
+.item-menu-header {
+    cursor: pointer;
+    font-weight: 100;    
+}
+
+.item-menu-header:hover {
+    font-weight: 700;
+}
+
+.container-image-header {
+    margin-top: 2rem;
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-header {
+    color: #ffffff;
+    font-size: 3em;
+    margin-left: 6.5rem;
+}
+
+.button-header {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 6.5rem;
+    margin-top: 1.5rem;
+}
+
+.list-menu-main {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 2rem;
+}
+
+.item-menu-main {
+    font-size: 1.3em;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.item-menu-main:hover {
+    font-weight: 700;
+    color: #BC0606;
+}
+
+.container-images-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-main {
+    width: 22%;
+    margin: 10px;
+}
+
+footer {
+    width: 80%;
+    display: flex;
+    margin: 2rem;
+}
+
+.container-images-footer {
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 4rem;
+}
+
+.box-text-footer {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+} 
+
+.paragraph-footer {
+    font-size: 12px;
+    width: 73%;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-left: 1rem;
+}
